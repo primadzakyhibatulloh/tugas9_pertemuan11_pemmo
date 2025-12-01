@@ -438,7 +438,8 @@ static Future<bool> addProduk({Produk? produk}) async {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR LIST PRODUK SETELAH DITAMBAH -->
-<img src="screenshots/produk_list_updated.png" alt="List Updated" width="100%">
+<img width="382" height="608" alt="isi-produk" src="https://github.com/user-attachments/assets/a2e57b24-8b61-4bc0-9baf-5e2ba0f39579" />
+
 </td>
 <td width="70%">
 
