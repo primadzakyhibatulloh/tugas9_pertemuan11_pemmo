@@ -69,8 +69,8 @@ Widget _passwordKonfirmasiTextField() {
 
 <tr>
 <td width="30%">
-<!-- GANTI DENGAN LINK/PATH GAMBAR KODE/REQUEST ANDA (OPSIONAL) -->
-<img src="https://www.google.com/search?q=https://img.icons8.com/fluency/240/api-settings.png" alt="API Process" width="100" style="margin: 50px auto; display: block;">
+<!-- TEMPAT GAMBAR/DIAGRAM ALUR REQUEST -->
+<img src="https://www.google.com/search?q=https://placehold.co/100x100/1E88E5/FFFFFF%3Ftext%3DBLoC%2BPOST" alt="Diagram Alur Request API" width="100" style="margin: 50px auto; display: block;">
 </td>
 <td width="70%">
 
@@ -103,7 +103,7 @@ static Future<Registrasi> registrasi({String? nama, String? email, String? passw
   };
   
   // Mengirim Request POST
-  var response = await Api().post(apiUrl, body);
+  var response = await Api().post(apiUrl, body); // Request dikirim via Api Helper
   
   // Konversi JSON ke Model Registrasi
   return Registrasi.fromJson(json.decode(response.body));
@@ -113,6 +113,7 @@ static Future<Registrasi> registrasi({String? nama, String? email, String? passw
 </details>
 </td>
 </tr>
+
 
 <tr>
 <td width="30%">
