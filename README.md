@@ -22,7 +22,9 @@ Fitur ini adalah gerbang awal bagi pengguna baru. Alur kerjanya dirancang untuk 
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR SS REGISTRASI ANDA -->
-<img src="screenshots/registrasi_form.png" alt="Form Registrasi" width="100%">
+<img width="390" height="828" alt="register-form-isi" src="https://github.com/user-attachments/assets/354b7c0e-5e8c-49e0-b4e4-5b406c69cbf2" />
+<img width="377" height="836" alt="register-berhasil" src="https://github.com/user-attachments/assets/3dad9063-8d57-45d4-a5bf-8828ee25230a" />
+
 </td>
 <td width="70%">
 
