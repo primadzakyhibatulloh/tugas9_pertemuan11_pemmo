@@ -1,0 +1,38 @@
+name: tokokita
+description: "A new Flutter project."
+# Prevent accidental upstream publishing to pub.dev:
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # Memperbarui ke versi stabil SDK yang lebih baru 
+  # (Contoh: mendukung Dart 3.x)
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependensi UI standar
+  cupertino_icons: ^1.0.8
+
+  # Dependensi untuk Jaringan (HTTP)
+  http: ^1.2.1
+
+  # Dependensi untuk Penyimpanan Lokal (Shared Preferences)
+  shared_preferences: ^2.2.3
+  
+  # DEPENDENSI BARU: Untuk format mata uang (intl) - Solusi Error Sebelumnya
+  intl: ^0.18.1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting yang disarankan
+  flutter_lints: ^3.0.0 # Menggunakan versi linting yang lebih modern
+
+flutter:
+  # Garis ini diperlukan untuk menggunakan widget Material Design.
+  uses-material-design: true
