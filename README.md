@@ -219,7 +219,7 @@ Widget _buttonLogin() {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR DIAGRAM/API ANDA -->
-<img src="https://www.google.com/search?q=https://img.icons8.com/fluency/240/data-encryption.png" alt="Secure Login" width="100" style="margin: 50px auto; display: block;">
+<img width="2048" height="2048" alt="Gemini_Generated_Image_1qnajq1qnajq1qna" src="https://github.com/user-attachments/assets/bd51380c-6df6-4845-8b0e-0c8a9ec826e7" />
 </td>
 <td width="70%">
 
