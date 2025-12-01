@@ -70,7 +70,7 @@ Widget _passwordKonfirmasiTextField() {
 <tr>
 <td width="30%">
 <!-- TEMPAT GAMBAR/DIAGRAM ALUR REQUEST -->
-<img src="https://www.google.com/search?q=https://placehold.co/100x100/1E88E5/FFFFFF%3Ftext%3DBLoC%2BPOST" alt="Diagram Alur Request API" width="100" style="margin: 50px auto; display: block;">
+<img width="2048" height="2048" alt="Gemini_Generated_Image_1n46pk1n46pk1n46" src="https://github.com/user-attachments/assets/ad241d35-8501-4be4-a751-926f97d76b3c" />
 </td>
 <td width="70%">
 
