@@ -801,6 +801,8 @@ String _formatCurrency(int price) {
 </table>
 
 
+<hr />
+
 7. ☰ Sidebar & Proses Logout
 
 Fitur navigasi tambahan dan manajemen sesi pengguna. Sidebar (Drawer) dapat diakses dengan menekan ikon menu di pojok kiri atas halaman utama.
@@ -809,7 +811,7 @@ Fitur navigasi tambahan dan manajemen sesi pengguna. Sidebar (Drawer) dapat diak
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN SCREENSHOT SIDEBAR/DRAWER ANDA -->
-<img width="357" height="807" alt="sidebar" src="https://github.com/user-attachments/assets/722f28ca-96d5-4058-a7f0-e692461e5563" />
+<img width="357" height="807" alt="sidebar" src="https://github.com/user-attachments/assets/2fca9893-01c0-4ebc-9fd0-36ba37514571" />
 
 </td>
 <td width="70%">
@@ -856,10 +858,9 @@ Widget _buildDrawer() {
 
 <tr>
 <td width="30%">
-<!-- ILUSTRASI ALUR LOGOUT YANG BARU DIBUAT -->
-<img src="
+<!-- GANTI DENGAN LINK/PATH GAMBAR ALUR LOGOUT ANDA -->
+<img width="2048" height="2048" alt="Gemini_Generated_Image_ozlaozlaozlaozla" src="https://github.com/user-attachments/assets/6e7d33b9-6c42-4e87-aee0-dd697653d637" />
 
-" alt="Alur Logout" width="100%">
 </td>
 <td width="70%">
 
