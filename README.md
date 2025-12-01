@@ -174,7 +174,7 @@ Setelah berhasil mendaftar, pengguna harus masuk untuk mendapatkan Token Akses. 
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR SS LOGIN ANDA -->
-<img src="screenshots/login_form.png" alt="Form Login" width="100%">
+<img width="395" height="900" alt="login" src="https://github.com/user-attachments/assets/18b9e1c3-221d-4cf0-86ff-cc7b66e2cbbd" />
 </td>
 <td width="70%">
 
@@ -260,7 +260,8 @@ static Future<Login> login({String? email, String? password}) async {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR HALAMAN PRODUK (TUJUAN) ANDA -->
-<img src="screenshots/produk_list.png" alt="Halaman Produk" width="100%">
+<img width="368" height="827" alt="login-form-isi" src="https://github.com/user-attachments/assets/aaebfc55-199f-45bf-86e4-42b27037ec96" />
+
 </td>
 <td width="70%">
 
@@ -300,7 +301,8 @@ if (value.code == 200) {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR WARNING DIALOG ANDA -->
-<img src="screenshots/login_gagal.png" alt="Login Gagal" width="100%">
+<img width="385" height="840" alt="login-gagal" src="https://github.com/user-attachments/assets/09ca7194-3cdf-4bbf-9c5f-f2dcad1270ff" />
+
 </td>
 <td width="70%">
 
