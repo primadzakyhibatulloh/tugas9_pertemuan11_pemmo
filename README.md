@@ -799,3 +799,106 @@ String _formatCurrency(int price) {
 </td>
 </tr>
 </table>
+
+
+7. ☰ Sidebar & Proses Logout
+
+Fitur navigasi tambahan dan manajemen sesi pengguna. Sidebar (Drawer) dapat diakses dengan menekan ikon menu di pojok kiri atas halaman utama.
+
+<table>
+<tr>
+<td width="30%">
+<!-- GANTI DENGAN SCREENSHOT SIDEBAR/DRAWER ANDA -->
+<img src="screenshots/produk_drawer.png" alt="Tampilan Sidebar" width="100%">
+</td>
+<td width="70%">
+
+a. Tampilan Sidebar (UI)
+
+Sidebar diimplementasikan menggunakan widget Drawer pada ProdukPage.
+
+Komponen Sidebar:
+
+Header: Menampilkan Judul "Manajemen Toko" dengan latar belakang warna primer.
+
+Menu Item: Tombol "Keluar (Logout)" yang interaktif.
+
+<details>
+<summary><b>🔻 Lihat Kode Widget Drawer</b></summary>
+
+// lib/ui/produk_page.dart
+
+Widget _buildDrawer() {
+  return Drawer(
+    child: ListView(
+      children: [
+        DrawerHeader(
+          decoration: BoxDecoration(color: _primaryColor),
+          child: Text('Manajemen Toko', style: TextStyle(color: Colors.white, fontSize: 24)),
+        ),
+        ListTile(
+          leading: const Icon(Icons.logout),
+          title: const Text('Keluar (Logout)'),
+          onTap: () async {
+            // Aksi Logout (lihat poin b)
+          },
+        ),
+      ],
+    ),
+  );
+}
+
+
+</details>
+</td>
+</tr>
+
+<tr>
+<td width="30%">
+<!-- ILUSTRASI ALUR LOGOUT YANG BARU DIBUAT -->
+<img src="
+
+" alt="Alur Logout" width="100%">
+</td>
+<td width="70%">
+
+b. Proses Logout (Logika & Navigasi)
+
+Saat tombol "Keluar" ditekan, aplikasi melakukan pembersihan sesi secara menyeluruh untuk keamanan.
+
+Alur Data:
+
+UI: Memanggil LogoutBloc.logout().
+
+Helper: UserInfo().logout() dipanggil untuk menghapus semua data di SharedPreferences (Token & UserID).
+
+Navigasi: Menggunakan pushAndRemoveUntil untuk kembali ke LoginPage sekaligus menghapus seluruh riwayat navigasi. Ini mencegah pengguna kembali ke halaman produk dengan menekan tombol Back setelah logout.
+
+<details>
+<summary><b>🔻 Lihat Kode Logika Logout</b></summary>
+
+// lib/bloc/logout_bloc.dart
+class LogoutBloc {
+  static Future logout() async {
+    await UserInfo().logout(); // Hapus sesi lokal
+  }
+}
+
+// lib/helpers/user_info.dart
+Future logout() async {
+  final SharedPreferences pref = await SharedPreferences.getInstance();
+  pref.clear(); // Hapus semua key (token, userid)
+}
+
+// lib/ui/produk_page.dart (onTap)
+await LogoutBloc.logout().then((value) => {
+    Navigator.of(context).pushAndRemoveUntil(
+        MaterialPageRoute(builder: (context) => const LoginPage()),
+        (route) => false) // Hapus stack history
+});
+
+
+</details>
+</td>
+</tr>
+</table>
