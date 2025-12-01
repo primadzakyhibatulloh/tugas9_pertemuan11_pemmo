@@ -344,7 +344,7 @@ Fitur ini memungkinkan pengguna untuk menambahkan data produk baru ke server. Ka
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR SS FORM TAMBAH KOSONG ANDA -->
-<img src="screenshots/produk_tambah_form.png" alt="Form Tambah" width="100%">
+<img width="343" height="830" alt="tambah-produk" src="https://github.com/user-attachments/assets/cae5f864-d777-4f05-b354-ea20e880a941" />
 </td>
 <td width="70%">
 
