@@ -631,7 +631,8 @@ void confirmHapus() {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR LIST PRODUK SETELAH DIHAPUS -->
-<img src="screenshots/produk_list_deleted.png" alt="List After Delete" width="100%">
+<img width="2048" height="2048" alt="Gemini_Generated_Image_tpi6uftpi6uftpi6" src="https://github.com/user-attachments/assets/1dbf1498-6a3a-4229-9a43-3e0d7f6b9f52" />
+
 </td>
 <td width="70%">
 
