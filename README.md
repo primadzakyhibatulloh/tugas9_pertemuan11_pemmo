@@ -384,7 +384,8 @@ isUpdate() {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR DIAGRAM/REQUEST -->
-<img src="https://www.google.com/search?q=https://img.icons8.com/fluency/240/add-database.png" alt="Add Data" width="100" style="margin: 50px auto; display: block;">
+<img width="2048" height="2048" alt="Gemini_Generated_Image_sxubqxsxubqxsxub" src="https://github.com/user-attachments/assets/9e0db669-d0f9-4b40-90c1-1c1626ff3be2" />
+
 </td>
 <td width="70%">
 
@@ -480,7 +481,7 @@ Fitur ini menggunakan kembali file UI ProdukForm. Perbedaannya terletak pada ini
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR SS FORM EDIT (TERISI) ANDA -->
-<img src="screenshots/produk_edit_form.png" alt="Form Edit" width="100%">
+<img width="382" height="822" alt="update-produk" src="https://github.com/user-attachments/assets/14459765-b66f-4f1e-a127-691b3ef53fe6" />
 </td>
 <td width="70%">
 
@@ -522,7 +523,7 @@ isUpdate() {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR LOGIKA/DIAGRAM -->
-<img src="https://www.google.com/search?q=https://img.icons8.com/fluency/240/available-updates.png" alt="Update Process" width="100" style="margin: 50px auto; display: block;">
+<img width="2048" height="2048" alt="Gemini_Generated_Image_8wxhqu8wxhqu8wxh" src="https://github.com/user-attachments/assets/7899cccd-05fb-45e2-84c2-c9b5ac8225fb" />
 </td>
 <td width="70%">
 
@@ -586,7 +587,8 @@ Fitur untuk menghapus data permanen dari database. Memerlukan konfirmasi penggun
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR POPUP KONFIRMASI HAPUS ANDA -->
-<img src="screenshots/produk_hapus_dialog.png" alt="Konfirmasi Hapus" width="100%">
+<img width="392" height="818" alt="hapus-produk-popup" src="https://github.com/user-attachments/assets/4ab5a7f6-a8a3-4392-bdc8-13434396959f" />
+
 </td>
 <td width="70%">
 
@@ -679,7 +681,8 @@ Fitur ini adalah tampilan utama aplikasi setelah Login. Data diambil dari server
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR SS LIST PRODUK ANDA -->
-<img src="screenshots/produk_list.png" alt="Katalog Produk" width="100%">
+<img width="370" height="832" alt="list-produk" src="https://github.com/user-attachments/assets/41c03b36-e61b-486a-a923-fa16b1931942" />
+
 </td>
 <td width="70%">
 
@@ -752,7 +755,8 @@ static Future<List<Produk>> getProduks() async {
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN LINK/PATH GAMBAR SS DETAIL PRODUK ANDA -->
-<img src="screenshots/produk_detail.png" alt="Detail Produk" width="100%">
+<img width="366" height="837" alt="detail-produk" src="https://github.com/user-attachments/assets/78b7f8cc-1861-43fc-b1cb-45451e6a3050" />
+
 </td>
 <td width="70%">
 
