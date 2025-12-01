@@ -809,7 +809,8 @@ Fitur navigasi tambahan dan manajemen sesi pengguna. Sidebar (Drawer) dapat diak
 <tr>
 <td width="30%">
 <!-- GANTI DENGAN SCREENSHOT SIDEBAR/DRAWER ANDA -->
-<img src="screenshots/produk_drawer.png" alt="Tampilan Sidebar" width="100%">
+<img width="357" height="807" alt="sidebar" src="https://github.com/user-attachments/assets/722f28ca-96d5-4058-a7f0-e692461e5563" />
+
 </td>
 <td width="70%">
 
